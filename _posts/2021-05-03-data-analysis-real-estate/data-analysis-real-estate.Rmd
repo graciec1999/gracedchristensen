@@ -1,0 +1,54 @@
+---
+title: "Data Analysis - Real Estate"
+description: |
+  Created earlier this year, the following post displays residential real estate sales in Sacramento, California (My hometown!)
+  
+author:
+  - name: Grace Christensen
+    url: https://example.com/norajones
+date: March 2, 2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+Using a sample of Sacramento, California real estate transactions, I created a map highlighting the location and price of residential real estate transactions.
+
+The results are shown below with additional details following.
+
+```{r}
+
+library(tidyverse)
+library(lubridate)
+library(readxl)
+library(janitor)
+library(glue)
+library(leaflet)
+library(RColorBrewer)
+library(htmlwidgets)
+library(htmltools)
+library(tigris)
+library(tmap)
+library(tmaptools)
+
+sac_sales <- read.csv("https://support.spatialkey.com/wp-content/uploads/2021/02/Sacramentorealestatetransactions.csv")
+
+residentialsales <- subset(sac_sales, type == "Residential")
+
+leaflet(data = residentialsales) %>%
+  addTiles() %>%
+  setView(-121.49935907688821, 38.62485634611972, zoom = 10) %>%
+  addCircles(lng = ~longitude, lat = ~latitude,
+             weight = 1, radius = ~sqrt(price), popup = ~city)
+
+```
+
+It is important to note that this data does not include any condo or multi-family dwellings.
+
+Additionally, each dot on this map represents one sale with the size of the data point reflecting the price the home sold for.  The bigger the dot, the bigger the sale.

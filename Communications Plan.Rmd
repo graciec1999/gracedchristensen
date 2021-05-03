@@ -1,0 +1,127 @@
+---
+title: "Aboloshing the California Death Penalty "
+description: |
+  A brief communications plan to end California's use of the death penalty.
+author:
+  - name: Grace Christensen 
+    url: https://example.com/norajones
+    affiliation: The George Washington University
+    affiliation_url: https://example.com/spacelysprokets
+date: February 21, 2021
+output: distill::distill_article
+---
+
+**THE GOAL**
+
+End capital punishment in the state of California.
+
+**OBJECTIVES**
+
+Pass ballot measure for the next General Election (2024) that would abolish California's use of the death penalty.
+
+Increase the number of Californians opposed to the death penalty.
+
+Change public discourse surrounding the death penalty in the state of California.
+
+**STRATEGY**
+
+Create and circulate petition to qualify measure for California's General Election ballot.
+
+Build support among California voters through grassroots advocacy.
+
+Launch social media, paid media and earned media campaigns to increase voter support of death penalty abolition.
+
+Engage communities in conversation about the flawed nature of the death penalty in the United States.
+
+Raise awareness of system failures surrounding the death penalty.
+
+**TACTICS**
+
+Collect one million signatures to add the proposed measure to the California General Election ballot.
+
+Create and launch social media campaign to spread campaign messaging.
+
+Work with local and state-wide television, print and radio news outlets in an earned media campaign with interviews, op-eds and coordinated letters to the editor.
+
+Purchase social media and television advertising in a paid media campaign.
+
+Organize and hold statewide events targeting churches and universities.
+
+Meet with elected officials and sympathetic legislators to amplify the voices of Californian's opposed to capital punishments.
+
+Canvas targeted neighborhoods.
+
+Work with members of the target audience to maximize impact of messaging on the public.
+
+**MESSAGING**
+
+If they don't deserve to kill, why do we?
+
+Capital punishment is cruel and unusual.
+
+For every nine people executed on death row, one has been exonerated.
+
+We are better than this.
+
+**TARGET AUDIENCE**
+
+Registered California voters with a specific emphasis on populations known to be most opposed to repealing the death penalty (white men over 30, white Protestants and white Catholics).
+
+Members of the California Republican Party with a specific emphasis on populations known to be most opposed to repealing the death penalty.
+
+Religious leaders and evangelicals with congregations in predominantly white neighborhoods.
+
+Victims' families and victim advocates actively opposed to ending capital punishment.
+
+Trial lawyers, litigators, correctional officers and all others involved in administering and overseeing state executions.
+
+State and local legislators known to support capital punishment.
+
+**BUDGET**
+
+![](images/Screen%20Shot%202021-05-03%20at%201.38.56%20PM.png){width="487"}
+
+**TIMELINE**
+
+January 2023 --- Research and planning phase.
+
+July 2023 --- Official campaign launch in preparation of petition circulation.
+
+July 2023 --- Proposed measure submission to the Attorney General.
+
+November 2023 --- Begin circulating abolition petition.
+
+March 2024 --- Last day to file the petition with election officials (i.e. signatures must be collected by now).
+
+June 2024 --- Last day for Secretary of State to determine that the measure is eligible and qualified for the ballot.
+
+Tuesday, November 5, 2024 --- General Election
+
+**EVALUATION + MEASUREMENT**
+
+Social media interactions (e.g. likes, follows, comments and shares) and website traffic
+
+Initial responses to petition signature collection
+
+Earned media response (e.g. press mentions, interview requests, etc.)
+
+Community response to awareness events
+
+General Election results
+
+**RESEARCH + BACKGROUND INFO**
+
+Not only does California have the largest death row in the country with more than 700 condemned prisoners awaiting execution, but it also has the largest death row in the entire Western Hemisphere. Throughout the state's history, roughly 740 people have been executed. In the last twenty years, California's death row population has grown by 28 percent.
+
+Thirteen people have been executed in California in the last 45 years, and five have been freed after being proved innocent.
+
+Defendants can be sentenced to death for a felony in which they were not responsible for the murder. Life without parole is presently legal in California as an alternative to capital punishment.
+
+Ballot Proposition 34 (2012), which sought to repeal the death penalty and replace it with life in prison, failed, yet it received 48 percent support from voters. Four years later, Proposition 62, which would have replaced the death penalty with a stricter version of life in prison, also failed, but it received 46.8 percent support from voters.
+
+On March 13, 2019, California Governor Gavin Newsom issued an executive order halting the death penalty within the state. Governor Newsom also called for the immediate closure of the execution chamber at San Quentin State Prison and a repeal of California's lethal injection protocol.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```

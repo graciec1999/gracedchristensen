@@ -1,0 +1,47 @@
+---
+title: "Arrest Rates in Washington, D.C."
+description: |
+  The following analysis explores the race, gender and ethnicity of all arrestees in Washington, D.C. in the year 2017.
+author:
+  - name: Grace Christensen
+    url: https://example.com/norajones
+    affiliation: The George Washington University
+    affiliation_url: https://example.com/spacelysprokets
+date: December 16, 2019
+output: distill::distill_article
+---
+
+**METHODS**
+
+In order to compare the 2017 MPD adult arrest data to the city of D.C., there first needs to be an established understanding of what the population of Washington, D.C. looks like. According to the United States Census Bureau, then, there are approximately 702,455 people residing in D.C. as of July 2018. Of these, 52.6 percent, or about 369,486 people, are female. The other 47.4 percent, or 332,964 people, are male (Figure One).
+
+![](images/Screen%20Shot%202021-05-03%20at%202.03.30%20PM.png){width="371"}
+
+The Bureau reported that 45.6 percent of this population, 320,315 people, is white, 46.4 percent, 325,934 people, is black or African American, and 4.4 percent, or 30,908 people, is Asian (Figure Two).
+
+![](images/Screen%20Shot%202021-05-03%20at%202.04.14%20PM.png){width="332"}
+
+Of this population, 11.3 percent reported as Hispanic, equating to about 79,376 people (Figure Three). Additionally, the Bureau found that 66.3 percent of this population falls between the ages of eighteen and sixty-five.
+
+![](images/Screen%20Shot%202021-05-03%20at%202.05.05%20PM.png){width="388"}
+
+Once this data was collected for the U.S. Census Bureau, arrest data was then downloaded from www.mpdc.dc.gov as a .csv file of the year of 2017. The data was then imported into Stata (software for statistics and data science) for further analysis. The results of this are discussed below.
+
+**RESULTS**
+
+As it turns out, 31,209 adults were arrested in Washington, D.C. in 2017. By race, 26,689 of these arrestees were black or African American people, 3,427 of these arrestees were white, 216 were Asian and the race of 877 of these arrestees was unknown (Figure Four).
+
+![](images/Screen%20Shot%202021-05-03%20at%202.06.15%20PM.png){width="440"}
+
+By gender, 23,871 of the arrested population were men, while only 7,311 of the arrested were women. There were also 27 individuals arrested in 2017 whose gender was unknown (Figure Five).
+
+![](images/Screen%20Shot%202021-05-03%20at%202.06.55%20PM.png){width="458"}
+
+In terms of ethnicity, only 1,809 of the adults arrested in 2017 reported themselves as Hispanic, with 18,469 people reporting as not Hispanic, and 10,931 of the individuals arrested having unknown ethnicities (Figure Six).
+
+![](images/Screen%20Shot%202021-05-03%20at%202.07.22%20PM.png){width="447"}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```

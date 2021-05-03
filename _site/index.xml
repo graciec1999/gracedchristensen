@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Grace De Christensen</title>
+    <link>https://gracedchristensen.netlify.app</link>
+    <atom:link href="https://gracedchristensen.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Grace De Christensen
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Tue, 04 May 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Welcome!</title>
+      <dc:creator>Grace Christensen</dc:creator>
+      <link>https://gracedchristensen.netlify.app/posts/welcome</link>
+      <description>Hi, and welcome! My name is Grace, and I am recent graduate of The George Washington University. This site displays some of the work I've done over the last four years, so I hope you enjoy looking around!</description>
+      <guid>https://gracedchristensen.netlify.app/posts/welcome</guid>
+      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Data Analysis - Real Estate</title>
+      <dc:creator>Grace Christensen</dc:creator>
+      <link>https://gracedchristensen.netlify.app/posts/2021-05-03-data-analysis-real-estate</link>
+      <description>Created earlier this year, the following post displays residential real estate sales in Sacramento, California (My hometown!)</description>
+      <guid>https://gracedchristensen.netlify.app/posts/2021-05-03-data-analysis-real-estate</guid>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

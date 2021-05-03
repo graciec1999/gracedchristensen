@@ -1,0 +1,46 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About Grace",
+      "description": "Having just graduated summa cum laude from the George Washington University with degrees in both Political Communication and American Studies, I am thrilled to begin my next step studying criminal law at Belmont University.  Originally from Sacramento, California, I have known that I wanted to practice law my whole life, and I cannot wait to finally make this dream a reality.\n\nI have been incredibly fortunate throughout the last four years living in Washington, D.C., and I have had amazing experiences interning for both the U.S. House of Representatives and local strategy firms.  While I'm sad to be leaving this city behind, I cannot wait to see what Nashville will bring me.\n\n I hope you enjoy looking at some of the work I've done and the projects I've created over the last four years, and if you have any questions, please do not hesitate to contact me.  I look forward to hearing from you! \n",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-05-03T15:06:52-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Grace De Christensen",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-05-03T15:06:54-04:00"
+    },
+    {
+      "path": "Resume.html",
+      "title": "Resume",
+      "author": [
+        {
+          "name": "Grace Christensen",
+          "url": "https://example.com/norajones"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\n\n\n\n\n",
+      "last_modified": "2021-05-03T15:06:55-04:00"
+    },
+    {
+      "path": "Skills.html",
+      "title": "Skills",
+      "author": [
+        {
+          "name": "Grace Christensen",
+          "url": "https://example.com/norajones"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\nTECHNOLOGY\nR Studio\nExcel\nStata\nHTML\nMicrosoft Suite\nGoogle Suite\nAdobe Suite\nPERSONAL\nWritten and Oral Communication\nOrganization\nResearch\nTime-Management\nLeadership\nLANGUAGES\nFrench\nEnglish\n\n\n\n",
+      "last_modified": "2021-05-03T15:06:56-04:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

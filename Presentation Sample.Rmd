@@ -1,0 +1,36 @@
+---
+title: "Gun Violence in America"
+description: |
+  This presentation explores changes in the modern media landscape as a means to understanding gun violence in America.
+author:
+  - name: Grace Christensen
+    url: https://example.com/norajones
+    affiliation: The George Washington University
+    affiliation_url: https://example.com/spacelysprokets
+date: December 9, 2019
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+![](images/1.png "From Parkland to Columbine")
+
+![](images/2.png)
+
+![](images/3.png)
+
+![](images/4.png)
+
+![](images/5.png)
+
+![](images/6.png)
+
+![](images/7.png)
+
+![](images/8.png)
+
+![](images/9.png)
+
+![](images/10.png)

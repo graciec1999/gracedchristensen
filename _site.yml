@@ -1,0 +1,39 @@
+name: "gracedchristensen"
+title: "Grace De Christensen"
+description: |
+  Grace De Christensen
+output_dir: "_site"
+base_url: https://gracedchristensen.netlify.app
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Work Samples"
+      menu:
+      - text: "Communications Plan"
+        href: Communications-Plan.html
+      - text: "Data Analysis - Real Estate"
+        href: posts/2021-05-03-data-analysis-real-estate/index.html
+      - text: "Writing Sample"
+        href: https://blogs.gwu.edu/ipdgcsmartpower/2021/04/14/a-relook-the-public-diplomacy-of-the-modern-olympic-games-and-chinas-soft-power-strategy/
+      - text: "Presentation Sample"
+        href: Presentation-Sample.html    
+      - text: "Data Analysis - Arrest Rates"
+        href: Data-Analysis---Arrest-Rates.html
+      - text: "Research Sample"
+        href: Research-Sample.html
+    - text: "Experience"
+      menu: 
+        - text: "LinkedIn"
+          href: https://www.linkedin.com/in/grace-christensen-b46053154/
+        - text: "Resume"
+          href: Resume.html
+    - text: "Skills"
+      href: Skills.html
+  
+output: distill::distill_article
+collections:
+  posts:
+    share: [twitter, linkedin, facebook]
